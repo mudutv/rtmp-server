@@ -13,7 +13,7 @@ if [ $(id -u) != "0" ]; then
 fi
 
 apt-get -y update
-curl -fsSL https://get.docker.com/| sh
+curl -sSL https://get.daocloud.io/docker | sh
 echo "DOCKER_OPTS=\"\$DOCKER_OPTS --registry-mirror=https://99e392na.mirror.aliyuncs.com\"" | sudo tee -a /etc/default/docker
 service docker restart
 mkdir data && mkdir data/record && mkdir data/logs && chmod -R 777 data
