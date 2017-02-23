@@ -51,6 +51,12 @@ watch link on PC `http://{your-server-ip}/player/player.html?stream={Act Id}`
 
 watch link on mobile `http://{your-server-ip}/player/mobile.html?stream={Act Id}`
 
+#### About Installation Script
+
+In order to deploy an rtmp server in minutes,we provide an installation script,here is the usage
+
+`curl -o install.sh https://raw.githubusercontent.com/mudutv/rtmp-server/master/install.sh && chmod +x install.sh && ./install.sh` 
+
 #### License
 
 This project is licensed under the [MIT license](http://opensource.org/licenses/mit-license.php).

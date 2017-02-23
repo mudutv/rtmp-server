@@ -48,3 +48,13 @@ hls地址 `http://{your-server-ip}/hls/{stream-name}/index.m3u8`
 PC端观看地址 `http://{your-server-ip}/player/player.html?stream={stream-name}`
 
 手机端观看地址 `http://{your-server-ip}/player/mobile.html?stream={stream-name}`
+
+#### 关于部署脚本
+ 
+为了更快部署rtmp server，我们提供了一键安装脚本，
+ 
+`curl -o install.sh https://raw.githubusercontent.com/mudutv/rtmp-server/master/install.sh && chmod +x install.sh && ./install.sh` 
+
+#### License
+
+本项目采用 [MIT许可](http://opensource.org/licenses/mit-license.php).
