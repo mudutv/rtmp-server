@@ -1,8 +1,16 @@
 #!/usr/bin/env bash
 
 echo "================================================="
-echo "即将开始安装目睹rtmp server"
+echo "rtmp server installtion script"
 echo "================================================="
+
+read -p "Press Enter to continue,press Ctrl+C to cancel"
+
+# quit if user isn't a root user
+if [ $(id -u) != "0" ]; then
+    echo "Error: You must be root to run this script!"
+    exit 1
+fi
 
 apt-get -y update
 curl -fsSL https://get.docker.com/| sh
