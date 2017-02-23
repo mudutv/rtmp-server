@@ -1,6 +1,8 @@
 # rtmp-server
 A rtmp server for offline useage
 
+[中文版文档](https://github.com/mudutv/rtmp-server/blob/master/README-zh.md)
+
 ### How to deploy a rtmp server
 
 #### 1.Prepare
@@ -48,3 +50,7 @@ hls address `http://{your-server-ip}/hls/{stream-name}/index.m3u8`
 watch link on PC `http://{your-server-ip}/player/player.html?stream={Act Id}`
 
 watch link on mobile `http://{your-server-ip}/player/mobile.html?stream={Act Id}`
+
+#### License
+
+This project is licensed under the [MIT license](http://opensource.org/licenses/mit-license.php).
